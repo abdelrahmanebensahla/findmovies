@@ -1,0 +1,103 @@
+body
+{
+    font-family: Bahnschrift;
+    font-size: 20px;
+    margin: 2;
+    padding: 40px;
+    background-color: #1c1c1c;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 100px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h2
+{
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    color: white;
+}
+
+form
+{
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 20px;
+    background-color: #111111;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    font-weight: lighter;
+}
+
+label
+{
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+}
+
+input
+{
+    width: 98%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: whitesmoke;
+    background-image: url('searchicon.png');
+    background-repeat: no-repeat;
+    font-family: Bahnschrift;
+    font-size: 20px;
+}
+
+select
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+
+    font-family: Bahnschrift;
+    font-size: 16px;
+}
+
+button
+{
+    width: 100%;
+    padding: 25px;
+    margin-top: 30px;
+    font-family: Bahnschrift;
+    font-size: 15px;
+    background-color: #007BFF;
+    color: #fff;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover
+{
+    background-color: #0056b3;
+}
+
+#recommendations
+{
+    margin-top: 20px;
+}
+
+#recommendations div
+{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
